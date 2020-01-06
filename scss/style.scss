@@ -1,0 +1,242 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+$header-color: rgba(40, 50, 56, 1);
+$btn-header-color: rgba(139, 195, 74, 1);
+$title-color: rgba(68, 68, 68, 1);
+$background-gradient-color: linear-gradient(45deg, rgba(66, 147, 33, 1), rgba(180, 236, 88, 1));
+$list-color: rgba(124, 179, 66, 1); ;
+
+.header-banner {
+	background: {
+	      image: url('../image/banner.png');
+	      size: cover;
+	      repeat: no-repeat;
+	      position: center;
+	}
+	height: 873px;
+	width: 100%;
+}
+
+.header-right {
+	margin-top: 20px;
+}
+
+.header-right {
+	a {
+		font: {
+			size: 12px;
+			family: Roboto;
+		}
+	}
+}
+
+.about-us {
+	color: $header-color;
+}
+
+.sign-in {
+	color: $btn-header-color;
+    border-color: $btn-header-color;
+    border-radius: 100px;
+}
+
+.hapoErp {
+	margin-top: 15%;
+}
+
+.italic {
+    font: {
+			style: italic;
+			size: 18px;
+		}
+		letter-spacing: -0.03px;
+		color: $header-color;
+}
+
+.flex-item {
+	i {
+		font: {
+			size: 48px;
+		}
+		color: $header-color;
+	}
+
+	p {
+		font: {
+			family: Roboto;
+			size: 36px;
+			weight: lighter;
+		}
+		color: $header-color;
+		letter-spacing: -0.07px;
+	}
+}
+
+.flex-justify {
+	justify-content: space-evenly;
+	margin-top: 40px;
+}
+
+.btn-start {
+	width: 195px;
+	height: 50px;
+	background-image: $background-gradient-color;
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    padding: 14px 47px 14px 47px;
+}
+
+.today-leart {
+	padding-top: 7%;
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 7%;
+}
+
+.head-title {
+	i {
+		font-size: 36px;
+        color: $title-color;
+        padding-top: 18px;
+	}
+
+	p {
+		font: {
+			family: Roboto;
+			weight: lighter;
+			size: 48px;
+		}
+		color: $title-color;
+		letter-spacing: -0.09pt;
+	}
+}
+
+.itali {
+	font: {
+		size: 12px;
+		family: Roboto;
+	}
+	color: $header-color;
+	padding: 15px 0 28px 0;
+}
+
+.regular {
+	font: {
+		size: 13px;
+		family: Roboto;
+		weight: normal;
+	}
+	line-height: 24px;
+	color: $header-color;
+	text-align: justify;
+}
+
+.daily-report {
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+.route {
+    background-image: $background-gradient-color;
+    color: white;
+    height: 322px;
+}
+
+.circle {
+	border-radius: 100px;
+	width: 107px;
+	height: 107px;
+	border: 2.5px solid white;
+	font-size: 36px;
+}
+
+.small-circle {
+	border-radius: 100px;
+	width: 40px;
+	height: 40px;
+	border: 2.5px solid white;
+	font-size: 24px;
+	background-color: $list-color;
+	margin-top: -15px;
+}
+
+.sub-item {
+    p {
+    	-webkit-line-clamp: 2;
+        overflow: hidden;
+        height: 50px;
+        color: $header-color;
+        text-align: justify;
+        line-height: 24px;
+        font: {
+        	size: 13px;
+        	family: Roboto;
+        	weight: normal;
+        }
+    }
+
+    i {
+        color: $btn-header-color;
+        margin-right: 19px;
+    }
+}
+
+.our-customer {
+	background-image: url('../image/rectangle3.png');
+    height: 544px;
+    color: white;
+
+    h1 {
+     font: {
+    	size: 48px;
+    	family: Roboto;
+    	weight: lighter;
+      }
+      padding-top: 50px;
+      padding-bottom: 38px;
+    }
+}
+
+.customer {
+    p {
+    	font-size: 10px;
+    }
+    span {
+    	font-size: 13px;
+    }
+}
+
+.carousel-indicators {
+	margin-bottom: -20px;
+
+	li {
+		width: 10px;
+        height: 10px;
+        border-radius: 100%;
+	}
+}
+
+.quote {
+	margin-top: 10px;
+
+	i {
+		font-size: 72px;
+		opacity: 0.4;
+	}
+
+	p {
+		font: {
+			size: 18px;
+			family: Roboto;
+			weight: lighter;
+		}
+		margin-top: 40px;
+	}
+}
+
+.ti-quote-right {
+	padding-top: 80px;
+}
