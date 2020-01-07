@@ -1,21 +1,14 @@
 body {
   margin: 0;
-  padding: 0; }
-
-.header-banner {
-  background-image: url("../image/banner.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 873px;
-  width: 100%; }
+  padding: 0;
+  font-family: Roboto; }
 
 .header-right {
   margin-top: 20px; }
 
 .header-right a {
   font-size: 12px;
-  font-family: Roboto; }
+  font-weight: normal; }
 
 .about-us {
   color: #283238; }
@@ -26,19 +19,20 @@ body {
   border-radius: 100px; }
 
 .hapoErp {
-  margin-top: 15%; }
+  margin-top: 18%; }
 
 .italic {
   font-style: italic;
-  font-size: 18px;
   letter-spacing: -0.03px;
-  color: #283238; }
+  color: #283238;
+  padding-top: 50px;
+  font-size: 18px;
+  font-weight: normal; }
 
 .flex-item i {
   font-size: 48px;
   color: #283238; }
 .flex-item p {
-  font-family: Roboto;
   font-size: 36px;
   font-weight: lighter;
   color: #283238;
@@ -54,42 +48,42 @@ body {
   background-image: linear-gradient(45deg, #429321, #b4ec58);
   border-radius: 100px;
   color: white;
+  padding: 14px 47px 14px 47px;
   font-size: 16px;
-  padding: 14px 47px 14px 47px; }
+  font-weight: normal;
+  margin: 10px 0 18% 0; }
 
 .today-leart {
-  padding-top: 7%;
-  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-  padding-bottom: 7%; }
+  padding: 7% 0 7% 0;
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
 
-.head-title i {
-  font-size: 36px;
-  color: #444444;
-  padding-top: 18px; }
-.head-title p {
-  font-family: Roboto;
-  font-weight: lighter;
-  font-size: 48px;
-  color: #444444;
-  letter-spacing: -0.09pt; }
+.head-title {
+  max-height: 63px;
+  margin: -5px 0 15px 0; }
+  .head-title i {
+    font-size: 36px;
+    color: #444444;
+    padding: 18px 19px 0 0; }
+  .head-title p {
+    color: #444444;
+    letter-spacing: -0.09pt;
+    font-size: 48px;
+    font-weight: lighter; }
 
 .itali {
   font-size: 12px;
-  font-family: Roboto;
-  color: #283238;
-  padding: 15px 0 28px 0; }
+  color: #283238; }
 
 .regular {
   font-size: 13px;
-  font-family: Roboto;
   font-weight: normal;
   line-height: 24px;
   color: #283238;
-  text-align: justify; }
+  text-align: justify;
+  padding-top: 22px; }
 
 .daily-report {
-  padding-top: 7%;
-  padding-bottom: 7%; }
+  padding: 7% 0 7% 0; }
 
 .route {
   background-image: linear-gradient(45deg, #429321, #b4ec58);
@@ -120,7 +114,6 @@ body {
   text-align: justify;
   line-height: 24px;
   font-size: 13px;
-  font-family: Roboto;
   font-weight: normal; }
 .sub-item i {
   color: #8bc34a;
@@ -132,15 +125,18 @@ body {
   color: white; }
   .our-customer h1 {
     font-size: 48px;
-    font-family: Roboto;
     font-weight: lighter;
-    padding-top: 50px;
-    padding-bottom: 38px; }
+    padding: 50px 0 38px 0;
+    letter-spacing: -0.09px; }
 
-.customer p {
-  font-size: 10px; }
-.customer span {
-  font-size: 13px; }
+.customer {
+  letter-spacing: -0.03px; }
+  .customer p {
+    font-size: 10px;
+    font-weight: normal; }
+  .customer span {
+    font-size: 13px;
+    font-weight: normal; }
 
 .carousel-indicators {
   margin-bottom: -20px; }
@@ -150,17 +146,55 @@ body {
     border-radius: 100%; }
 
 .quote {
-  margin-top: 10px; }
+  width: 85%;
+  margin: auto; }
   .quote i {
     font-size: 72px;
     opacity: 0.4; }
   .quote p {
     font-size: 18px;
-    font-family: Roboto;
     font-weight: lighter;
-    margin-top: 40px; }
+    margin-top: 40px;
+    letter-spacing: -0.03px;
+    padding: 0 26px 0 26px; }
 
 .ti-quote-right {
-  padding-top: 80px; }
+  padding-top: 10%; }
+
+footer {
+  background-color: #39474e;
+  height: 179px; }
+
+.col-footer ul {
+  list-style-type: none; }
+.col-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-weight: 400; }
+.col-footer .col-title {
+  color: #8bc34a;
+  padding-bottom: 14px;
+  font-size: 13px;
+  font-weight: 400; }
+.col-footer i {
+  color: #8bc34a;
+  padding-top: 65px;
+  font-size: 13px; }
+
+@media screen and (min-width: 769px) {
+  .header-banner {
+    background-image: url("../image/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 873px; } }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .header-banner {
+    background-image: url("../image/rectangle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 425px; } }
 
 /*# sourceMappingURL=style.css.map */

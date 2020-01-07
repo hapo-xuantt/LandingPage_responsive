@@ -1,23 +1,9 @@
+@import "variable";
+
 body {
     margin: 0;
     padding: 0;
-}
-
-$header-color: rgba(40, 50, 56, 1);
-$btn-header-color: rgba(139, 195, 74, 1);
-$title-color: rgba(68, 68, 68, 1);
-$background-gradient-color: linear-gradient(45deg, rgba(66, 147, 33, 1), rgba(180, 236, 88, 1));
-$list-color: rgba(124, 179, 66, 1); ;
-
-.header-banner {
-    background: {
-          image: url('../image/banner.png');
-          size: cover;
-          repeat: no-repeat;
-          position: center;
-    }
-    height: 873px;
-    width: 100%;
+    font-family: Roboto;
 }
 
 .header-right {
@@ -26,10 +12,7 @@ $list-color: rgba(124, 179, 66, 1); ;
 
 .header-right {
     a {
-        font: {
-            size: 12px;
-            family: Roboto;
-        }
+        @include font(12px, normal);
     }
 }
 
@@ -44,32 +27,25 @@ $list-color: rgba(124, 179, 66, 1); ;
 }
 
 .hapoErp {
-    margin-top: 15%;
+    margin-top: 18%;
 }
 
 .italic {
-    font: {
-            style: italic;
-            size: 18px;
-        }
+        font-style: italic;
         letter-spacing: -0.03px;
         color: $header-color;
+        padding-top: 50px;
+        @include font(18px, normal);
 }
 
 .flex-item {
     i {
-        font: {
-            size: 48px;
-        }
+        font-size: 48px;
         color: $header-color;
     }
 
     p {
-        font: {
-            family: Roboto;
-            size: 36px;
-            weight: lighter;
-        }
+        @include font(36px, lighter);
         color: $header-color;
         letter-spacing: -0.07px;
     }
@@ -86,57 +62,48 @@ $list-color: rgba(124, 179, 66, 1); ;
     background-image: $background-gradient-color;
     border-radius: 100px;
     color: white;
-    font-size: 16px;
     padding: 14px 47px 14px 47px;
+    @include font(16px, normal);
+    margin: 10px 0 18% 0;
 }
 
 .today-leart {
-    padding-top: 7%;
+    padding: 7% 0 7% 0;
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-    padding-bottom: 7%;
 }
 
 .head-title {
     i {
         font-size: 36px;
         color: $title-color;
-        padding-top: 18px;
+        padding: 18px 19px 0 0;
     }
 
     p {
-        font: {
-            family: Roboto;
-            weight: lighter;
-            size: 48px;
-        }
         color: $title-color;
         letter-spacing: -0.09pt;
+        @include font(48px, lighter);
     }
+
+    max-height: 63px;
+    margin: -5px 0 15px 0;
 }
 
 .itali {
-    font: {
-        size: 12px;
-        family: Roboto;
-    }
+    font-size: 12px;
     color: $header-color;
-    padding: 15px 0 28px 0;
 }
 
 .regular {
-    font: {
-        size: 13px;
-        family: Roboto;
-        weight: normal;
-    }
+    @include font(13px, normal);
     line-height: 24px;
     color: $header-color;
     text-align: justify;
+    padding-top: 22px;
 }
 
 .daily-report {
-    padding-top: 7%;
-    padding-bottom: 7%;
+    padding: 7% 0 7% 0;
 }
 
 .route {
@@ -171,11 +138,7 @@ $list-color: rgba(124, 179, 66, 1); ;
         color: $header-color;
         text-align: justify;
         line-height: 24px;
-        font: {
-            size: 13px;
-            family: Roboto;
-            weight: normal;
-        }
+        @include font(13px, normal);
     }
 
     i {
@@ -190,23 +153,21 @@ $list-color: rgba(124, 179, 66, 1); ;
     color: white;
 
     h1 {
-     font: {
-        size: 48px;
-        family: Roboto;
-        weight: lighter;
-      }
-      padding-top: 50px;
-      padding-bottom: 38px;
+      @include font(48px, lighter);
+      padding: 50px 0 38px 0;
+      letter-spacing: -0.09px;
     }
 }
 
 .customer {
     p {
-        font-size: 10px;
+        @include font(10px, normal);
     }
     span {
-        font-size: 13px;
+        @include font(13px, normal);
     }
+
+    letter-spacing: -0.03px;
 }
 
 .carousel-indicators {
@@ -220,7 +181,8 @@ $list-color: rgba(124, 179, 66, 1); ;
 }
 
 .quote {
-    margin-top: 10px;
+    width: 85%;
+    margin: auto;
 
     i {
         font-size: 72px;
@@ -228,15 +190,67 @@ $list-color: rgba(124, 179, 66, 1); ;
     }
 
     p {
-        font: {
-            size: 18px;
-            family: Roboto;
-            weight: lighter;
-        }
+        @include font(18px, lighter);
         margin-top: 40px;
+        letter-spacing: -0.03px;
+        padding: 0 26px 0 26px;
     }
 }
 
 .ti-quote-right {
-    padding-top: 80px;
+    padding-top: 10%;
+}
+
+footer {
+    background-color: rgb(57, 71, 78);
+    height: 179px;
+}
+
+.col-footer {
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        @include font(10px, 400)
+    }
+
+    .col-title {
+        color: $btn-header-color;
+        padding-bottom: 14px;
+        @include font(13px, 400)
+    }
+
+    i {
+        color: $btn-header-color;
+        padding-top: 65px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 769px){
+      .header-banner {
+              background: {
+                  image: url('../image/banner.png');
+                  size: cover;
+                  repeat: no-repeat;
+                  position: center;
+            }
+        height: 873px;
+}
+
+}
+
+@media screen and (min-width: 480px)and (max-width: 768px){
+      .header-banner {
+              background: {
+                  image: url('../image/rectangle.png');
+                  size: cover;
+                  repeat: no-repeat;
+                  position: center;
+            }
+        height: 425px;
+    }
 }
