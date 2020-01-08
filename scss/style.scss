@@ -1,4 +1,4 @@
-@import "variable";
+@import "variables";
 
 body {
     margin: 0;
@@ -22,7 +22,7 @@ body {
 
 .sign-in {
     color: $btn-header-color;
-    border-color: $btn-header-color;
+    border:2px solid $btn-header-color;
     border-radius: 100px;
 }
 
@@ -31,11 +31,11 @@ body {
 }
 
 .italic {
-        font-style: italic;
-        letter-spacing: -0.03px;
-        color: $header-color;
-        padding-top: 50px;
-        @include font(18px, normal);
+    font-style: italic;
+    letter-spacing: -0.03px;
+    color: $header-color;
+    padding-top: 50px;
+    @include font(18px, normal);
 }
 
 .flex-item {
@@ -45,9 +45,9 @@ body {
     }
 
     p {
-        @include font(36px, lighter);
         color: $header-color;
         letter-spacing: -0.07px;
+        @include font(36px, lighter);
     }
 }
 
@@ -63,16 +63,19 @@ body {
     border-radius: 100px;
     color: white;
     padding: 14px 47px 14px 47px;
-    @include font(16px, normal);
     margin: 10px 0 18% 0;
+    @include font(16px, normal);
 }
 
-.today-leart {
+.today-learnt {
     padding: 7% 0 7% 0;
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
 .head-title {
+    max-height: 63px;
+    margin: -5px 0 15px 0;
+
     i {
         font-size: 36px;
         color: $title-color;
@@ -84,9 +87,6 @@ body {
         letter-spacing: -0.09pt;
         @include font(48px, lighter);
     }
-
-    max-height: 63px;
-    margin: -5px 0 15px 0;
 }
 
 .itali {
@@ -95,11 +95,11 @@ body {
 }
 
 .regular {
-    @include font(13px, normal);
     line-height: 24px;
     color: $header-color;
     text-align: justify;
     padding-top: 22px;
+    @include font(13px, normal);
 }
 
 .daily-report {
@@ -131,6 +131,7 @@ body {
 }
 
 .sub-item {
+    margin-top: 18px;
     p {
         -webkit-line-clamp: 2;
         overflow: hidden;
@@ -153,9 +154,9 @@ body {
     color: white;
 
     h1 {
-      @include font(48px, lighter);
-      padding: 50px 0 38px 0;
-      letter-spacing: -0.09px;
+        padding: 50px 0 38px 0;
+        letter-spacing: -0.09px;
+        @include font(48px, lighter);
     }
 }
 
@@ -190,10 +191,10 @@ body {
     }
 
     p {
-        @include font(18px, lighter);
         margin-top: 40px;
         letter-spacing: -0.03px;
         padding: 0 26px 0 26px;
+        @include font(18px, lighter);
     }
 }
 
@@ -231,26 +232,149 @@ footer {
 }
 
 @media screen and (min-width: 769px){
-      .header-banner {
-              background: {
-                  image: url('../image/banner.png');
-                  size: cover;
-                  repeat: no-repeat;
-                  position: center;
-            }
+    .header-banner {
+        background-image: url('../image/banner.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         height: 873px;
 }
-
+    .hidden-md-down {
+        display: block;
+    }
+     
+    .hidden-lg-up {
+       display: none; 
+    }
 }
 
-@media screen and (min-width: 480px)and (max-width: 768px){
-      .header-banner {
-              background: {
-                  image: url('../image/rectangle.png');
-                  size: cover;
-                  repeat: no-repeat;
-                  position: center;
-            }
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .header-banner {     
+        background-image: url('../image/rectangle.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         height: 425px;
     }
+
+    .hapoErp {
+        margin-top: 6%;
+
+        img {
+            width: 20%;
+        }
+    }
+
+    .flex-item {
+        i {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+    }
+
+    .flex-justify {
+        justify-content: space-around;
+    }
+
+    .italic {
+        font-size: 14px;
+        padding-top: 0;
+    }
+
+    .btn-start {
+        width: 144px;
+        height: 45px;
+        font-size: 14px;
+        padding: 13px 28px 13px 27px;
+    }
+
+    .hidden-md-down {
+        display: none;
+    }
+
+    .hidden-lg-up {
+        display: block;
+
+        img {
+            padding-top: 25px;
+        }
+    }
+
+    .head-title {
+        max-height: 63px;
+        margin: -5px 0 15px 0;
+
+        i {
+            font-size: 30px;
+            padding: 11px 13px 0 0;
+        }
+
+        p {
+            letter-spacing: -0.07pt;
+            @include font(36px, lighter);
+        }
+    }
+
+    .itali {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.03px;
+    }
+
+    .regular {
+        line-height: 21px;
+    }
+
+    .sub-item {
+        margin-top: 20px;
+
+        p {
+            -webkit-line-clamp: 3;
+            height: 60px;
+            line-height: 21px;
+            @include font(13px, normal);
+        }
+
+        i {
+            margin-right: 12px;
+        }
+    }
+
+    .our-customer {
+        h1 {
+            padding: 50px 0 20px 0;
+            letter-spacing: -0.07px;
+            @include font(36px, lighter);
+        }
+    }
+
+    .quote {
+        width: 100%;
+
+        i {
+            font-size: 64px;
+            opacity: 0.4;
+        }
+
+        p {
+            margin-top: 40px;
+            padding: 15px 0 0 0;
+            line-height: 30px;
+            @include font(18px, lighter);
+        }
+    }
+        
+    .ti-quote-right {
+        padding-top: 22%;
+    }
+     
+    .col-footer {
+        ul {
+            padding-inline-start: unset;
+        }
+        padding: 0;
+    }  
 }
