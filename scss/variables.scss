@@ -5,6 +5,12 @@ $background-gradient-color: linear-gradient(45deg, rgba(66, 147, 33, 1), rgba(18
 $list-color: rgba(124, 179, 66, 1); ;
 
 @mixin font($fontSize, $fontWeight) {
-       font-size: $fontSize;
-       font-weight: $fontWeight;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+}
+
+@mixin background($bg-img, $bg-height) {
+    background: url($bg-img) no-repeat center;
+    background-size: cover;
+    height: $bg-height;
 }
