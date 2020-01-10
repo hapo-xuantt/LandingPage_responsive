@@ -8,9 +8,3 @@ $list-color: rgba(124, 179, 66, 1); ;
     font-size: $fontSize;
     font-weight: $fontWeight;
 }
-
-@mixin background($bg-img, $bg-height) {
-    background: url($bg-img) no-repeat center;
-    background-size: cover;
-    height: $bg-height;
-}
