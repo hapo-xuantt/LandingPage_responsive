@@ -1,0 +1,224 @@
+@media screen and (min-width: 769px) {
+  .header-banner {
+    background: url("../image/banner.png") no-repeat center;
+    background-size: cover;
+    height: 873px; }
+
+  .hidden-md-down {
+    display: block; }
+
+  .hidden-lg-up,
+  .hidden-sm-up {
+    display: none; } }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header-banner {
+    background: url("../image/rectangle.png") no-repeat center;
+    background-size: cover;
+    height: 425px; }
+
+  .hapoERP {
+    margin-top: 6%; }
+    .hapoERP img {
+      width: 20%; }
+
+  .flex-item i,
+  .flex-item p {
+    font-size: 24px; }
+
+  .flex-justify {
+    justify-content: space-around; }
+
+  .italic {
+    font-size: 14px;
+    padding-top: 0; }
+
+  .btn-start {
+    font-size: 14px;
+    padding: 13px 28px 13px 27px;
+    margin: 0; }
+
+  .hidden-md-down,
+  .hidden-sm-up {
+    display: none; }
+
+  .hidden-lg-up {
+    display: block; }
+    .hidden-lg-up img {
+      padding-top: 25px; }
+
+  .head-title {
+    max-height: 63px;
+    margin: -5px 0 15px; }
+    .head-title i {
+      font-size: 30px;
+      padding: 11px 13px 0 0; }
+    .head-title p {
+      letter-spacing: -0.07pt;
+      font-size: 36px;
+      font-weight: lighter; }
+
+  .itali {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.03px; }
+
+  .regular {
+    line-height: 21px; }
+
+  .sub-item {
+    margin-top: 20px; }
+    .sub-item p {
+      -webkit-line-clamp: 3;
+      height: 60px;
+      line-height: 21px;
+      font-size: 13px;
+      font-weight: normal; }
+    .sub-item i {
+      margin-right: 12px; }
+
+  .our-customer h1 {
+    padding: 50px 0 20px;
+    letter-spacing: -0.07px;
+    font-size: 36px;
+    font-weight: lighter; }
+
+  .quote {
+    width: 100%; }
+    .quote i {
+      font-size: 64px;
+      opacity: 0.4; }
+    .quote p {
+      margin-top: 40px;
+      padding: 15px 0 0;
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: lighter; }
+
+  .ti-quote-right {
+    padding-top: 22%; }
+
+  .col-title img {
+    padding-top: 0; }
+
+  .col-footer {
+    padding: 0; }
+    .col-footer ul {
+      padding-inline-start: unset; } }
+@media screen and (max-width: 480px) {
+  .hidden-sm-up {
+    display: block; }
+
+  .hidden-md-down {
+    display: none; }
+
+  .hidden-lg-up {
+    display: none; }
+    .hidden-lg-up img {
+      padding-top: 25px; }
+
+  .header-banner {
+    background: url("../image/rectangle.png") no-repeat center;
+    background-size: cover;
+    height: 266px; }
+
+  .hapoERP {
+    margin-top: 2%; }
+    .hapoERP img {
+      width: 20%; }
+
+  .flex-item i,
+  .flex-item p {
+    font-size: 18px; }
+
+  .flex-justify {
+    justify-content: space-around;
+    margin-top: 20px; }
+
+  .offset-1 {
+    margin-left: 10.333333%; }
+
+  .italic {
+    font-size: 9px;
+    padding-top: 0; }
+
+  .btn-start {
+    font-size: 14px;
+    padding: 11px 28px 10px 27px;
+    margin: 0; }
+
+  .head-title {
+    max-height: 32px;
+    margin: 0 0 5px; }
+    .head-title i {
+      font-size: 20px;
+      padding: 7px 14px 0 0; }
+    .head-title p {
+      letter-spacing: -0.05pt;
+      font-size: 24px;
+      font-weight: lighter; }
+
+  .itali {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.03px; }
+
+  .regular {
+    line-height: 21px; }
+
+  .sub-item {
+    margin-top: 20px; }
+    .sub-item p {
+      -webkit-line-clamp: 3;
+      height: 60px;
+      line-height: 21px;
+      font-size: 13px;
+      font-weight: normal; }
+    .sub-item i {
+      margin-right: 12px; }
+
+  .our-customer {
+    height: 525px; }
+    .our-customer h1 {
+      padding: 24px 0 38px;
+      letter-spacing: -0.05px;
+      font-size: 24px;
+      font-weight: lighter; }
+
+  .carousel-indicators {
+    margin-bottom: -26px; }
+
+  .quote {
+    width: 100%;
+    margin-top: 26px; }
+    .quote i {
+      font-size: 48px; }
+    .quote p {
+      margin-top: 0;
+      padding: 0;
+      margin-block-end: unset;
+      line-height: 25px;
+      font-size: 14px;
+      font-weight: lighter; }
+
+  .ti-quote-right {
+    padding-top: 0; }
+
+  footer {
+    height: 209px; }
+
+  .col-footer ul {
+    padding-inline-start: unset; }
+  .col-footer img {
+    width: 20%;
+    padding-bottom: 15px; }
+  .col-footer i {
+    padding-top: 10px; }
+  .col-footer p {
+    color: white;
+    font-size: 10px;
+    padding-top: 10px; }
+
+  .col-how-works {
+    padding: 0; } }
+
+/*# sourceMappingURL=responsive.css.map */
