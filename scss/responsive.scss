@@ -1,6 +1,6 @@
 @import "variables";
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 992px){
     .header-banner {
        background: url("../image/banner.png") no-repeat center;
        background-size: cover;
@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 991px){
     .header-banner {     
         background: url("../image/rectangle.png") no-repeat center;
         background-size: cover;
@@ -143,14 +143,20 @@
     }
 
     .col-footer {
+        padding: 0;
+
         ul {
             padding-inline-start: unset;
         }
-        padding: 0;
+
+        i {
+            padding-top: 65px;
+            font-size: 13px;
+        }
     }  
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 767px){
     .hidden-lg-up {
         display: block;
     }
