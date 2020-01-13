@@ -174,14 +174,14 @@ footer {
   color: white;
   font-size: 10px;
   font-weight: 400; }
+.col-footer i {
+  color: #8bc34a;
+  padding-top: 65px;
+  font-size: 13px; }
 .col-footer .col-title {
   color: #8bc34a;
   padding-bottom: 14px;
   font-size: 13px;
   font-weight: 400; }
-.col-footer i {
-  color: #8bc34a;
-  padding-top: 65px;
-  font-size: 13px; }
 
 /*# sourceMappingURL=style.css.map */
