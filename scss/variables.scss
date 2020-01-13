@@ -1,0 +1,10 @@
+$header-color: rgba(40, 50, 56, 1);
+$btn-header-color: rgba(139, 195, 74, 1);
+$title-color: rgba(68, 68, 68, 1);
+$background-gradient-color: linear-gradient(45deg, rgba(66, 147, 33, 1), rgba(180, 236, 88, 1));
+$list-color: rgba(124, 179, 66, 1); ;
+
+@mixin font($fontSize, $fontWeight) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+}

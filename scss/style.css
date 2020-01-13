@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto; }
+
+.header-right {
+  margin-top: 3%; }
+  .header-right a {
+    font-size: 12px;
+    font-weight: normal; }
+
+.about-us {
+  color: #283238; }
+
+.sign-in {
+  color: #8bc34a;
+  border: 2px solid #8bc34a;
+  border-radius: 100px;
+  padding: 10px 15px 10px 17px; }
+
+.hapoERP {
+  margin-top: 16%; }
+
+.italic {
+  font-style: italic;
+  letter-spacing: -0.03px;
+  color: #283238;
+  padding-top: 4%;
+  margin-bottom: 2.5%;
+  font-size: 18px;
+  font-weight: normal; }
+
+.flex-item {
+  color: #283238; }
+  .flex-item i {
+    font-size: 48px; }
+  .flex-item p {
+    letter-spacing: -0.07px;
+    font-size: 36px;
+    font-weight: lighter; }
+
+.flex-justify {
+  justify-content: space-evenly;
+  margin-top: 40px; }
+
+.btn-start {
+  background-image: linear-gradient(45deg, #429321, #b4ec58);
+  border-radius: 100px;
+  color: white;
+  padding: 14px 47px;
+  margin: 1% 0 20%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: normal; }
+
+.today-learnt {
+  padding: 5.193% 0 0;
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
+
+.head-title {
+  max-height: 63px;
+  margin: -5px 0 15px; }
+  .head-title i {
+    font-size: 36px;
+    color: #444444;
+    padding: 18px 19px 0 0; }
+  .head-title p {
+    color: #444444;
+    letter-spacing: -0.09pt;
+    font-size: 48px;
+    font-weight: lighter; }
+
+.itali {
+  font-size: 12px;
+  color: #283238; }
+
+.regular {
+  line-height: 24px;
+  color: #283238;
+  text-align: justify;
+  padding-top: 22px;
+  font-size: 13px;
+  font-weight: normal; }
+
+.daily-report {
+  padding: 5.193% 0 0; }
+
+.route {
+  background-image: linear-gradient(45deg, #429321, #b4ec58);
+  color: white;
+  padding: 5.6% 0; }
+
+.circle {
+  border-radius: 100px;
+  width: 107px;
+  height: 107px;
+  border: 2.5px solid white;
+  font-size: 36px; }
+
+.small-circle {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  border: 2.5px solid white;
+  font-size: 24px;
+  background-color: #7cb342;
+  margin-top: -15px; }
+
+.sub-item {
+  margin-top: 18px; }
+  .sub-item p {
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    height: 50px;
+    color: #283238;
+    text-align: justify;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: normal; }
+  .sub-item i {
+    color: #8bc34a;
+    margin-right: 19px; }
+
+.our-customer {
+  background-image: url("../image/rectangle3.png");
+  color: white; }
+  .our-customer h1 {
+    padding: 5% 0 3.5%;
+    letter-spacing: -0.09px;
+    font-size: 48px;
+    font-weight: lighter; }
+
+.customer {
+  letter-spacing: -0.03px; }
+  .customer p {
+    font-size: 10px;
+    font-weight: normal; }
+  .customer span {
+    font-size: 13px;
+    font-weight: normal; }
+
+.carousel-indicators {
+  margin-bottom: -20px; }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; }
+
+.quote {
+  width: 85%;
+  margin: auto;
+  padding-bottom: 5%; }
+  .quote i {
+    font-size: 72px;
+    opacity: 0.4; }
+  .quote p {
+    margin-top: 40px;
+    letter-spacing: -0.03px;
+    padding: 0 26px;
+    font-size: 18px;
+    font-weight: lighter; }
+
+.ti-quote-right {
+  padding-top: 10%; }
+
+footer {
+  background-color: #39474e;
+  padding: 2.2% 0 2%; }
+
+.col-footer ul {
+  list-style-type: none; }
+.col-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-weight: 400; }
+.col-footer .col-title {
+  color: #8bc34a;
+  padding-bottom: 14px;
+  font-size: 13px;
+  font-weight: 400; }
+.col-footer i {
+  color: #8bc34a;
+  padding-top: 65px;
+  font-size: 13px; }
+
+/*# sourceMappingURL=style.css.map */
