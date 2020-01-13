@@ -131,6 +131,7 @@ body {
 
 .sub-item {
     margin-top: 18px;
+    
     p {
         -webkit-line-clamp: 2;
         overflow: hidden;
@@ -217,15 +218,15 @@ footer {
         @include font(10px, 400)
     }
 
-    .col-title {
-        color: $btn-header-color;
-        padding-bottom: 14px;
-        @include font(13px, 400)
-    }
-
     i {
         color: $btn-header-color;
         padding-top: 65px;
         font-size: 13px;
+    }
+
+    .col-title {
+        color: $btn-header-color;
+        padding-bottom: 14px;
+        @include font(13px, 400)
     }
 }
