@@ -4,7 +4,7 @@ body {
   font-family: Roboto; }
 
 .header-right {
-  margin-top: 20px; }
+  margin-top: 3%; }
   .header-right a {
     font-size: 12px;
     font-weight: normal; }
@@ -15,27 +15,29 @@ body {
 .sign-in {
   color: #8bc34a;
   border: 2px solid #8bc34a;
-  border-radius: 100px; }
+  border-radius: 100px;
+  padding: 10px 15px 10px 17px; }
 
 .hapoERP {
-  margin-top: 18%; }
+  margin-top: 16%; }
 
 .italic {
   font-style: italic;
   letter-spacing: -0.03px;
   color: #283238;
-  padding-top: 50px;
+  padding-top: 4%;
+  margin-bottom: 2.5%;
   font-size: 18px;
   font-weight: normal; }
 
-.flex-item i {
-  font-size: 48px;
+.flex-item {
   color: #283238; }
-.flex-item p {
-  color: #283238;
-  letter-spacing: -0.07px;
-  font-size: 36px;
-  font-weight: lighter; }
+  .flex-item i {
+    font-size: 48px; }
+  .flex-item p {
+    letter-spacing: -0.07px;
+    font-size: 36px;
+    font-weight: lighter; }
 
 .flex-justify {
   justify-content: space-evenly;
@@ -46,13 +48,13 @@ body {
   border-radius: 100px;
   color: white;
   padding: 14px 47px;
-  margin: 10px 0 18%;
+  margin: 1% 0 20%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   font-size: 16px;
   font-weight: normal; }
 
 .today-learnt {
-  padding: 7% 0;
+  padding: 5.193% 0 0;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
 
 .head-title {
@@ -81,12 +83,12 @@ body {
   font-weight: normal; }
 
 .daily-report {
-  padding: 7% 0; }
+  padding: 5.193% 0 0; }
 
 .route {
   background-image: linear-gradient(45deg, #429321, #b4ec58);
   color: white;
-  height: 322px; }
+  padding: 5.6% 0; }
 
 .circle {
   border-radius: 100px;
@@ -121,10 +123,9 @@ body {
 
 .our-customer {
   background-image: url("../image/rectangle3.png");
-  height: 544px;
   color: white; }
   .our-customer h1 {
-    padding: 50px 0 38px;
+    padding: 5% 0 3.5%;
     letter-spacing: -0.09px;
     font-size: 48px;
     font-weight: lighter; }
@@ -147,7 +148,8 @@ body {
 
 .quote {
   width: 85%;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 5%; }
   .quote i {
     font-size: 72px;
     opacity: 0.4; }
@@ -163,7 +165,7 @@ body {
 
 footer {
   background-color: #39474e;
-  height: 179px; }
+  padding: 2.2% 0 2%; }
 
 .col-footer ul {
   list-style-type: none; }
@@ -172,14 +174,14 @@ footer {
   color: white;
   font-size: 10px;
   font-weight: 400; }
+.col-footer i {
+  color: #8bc34a;
+  padding-top: 65px;
+  font-size: 13px; }
 .col-footer .col-title {
   color: #8bc34a;
   padding-bottom: 14px;
   font-size: 13px;
   font-weight: 400; }
-.col-footer i {
-  color: #8bc34a;
-  padding-top: 65px;
-  font-size: 13px; }
 
 /*# sourceMappingURL=style.css.map */

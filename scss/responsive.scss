@@ -1,0 +1,305 @@
+@import "variables";
+
+@media screen and (min-width: 769px){
+    .header-banner {
+       background: url("../image/banner.png") no-repeat center;
+       background-size: cover;
+    }
+
+    .offset-lg-0 {
+        margin-left: 2%;
+    }
+
+    .hidden-md-down {
+        display: block;
+    }
+     
+    .hidden-lg-up {
+       display: none; 
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .header-banner {     
+        background: url("../image/rectangle.png") no-repeat center;
+        background-size: cover;
+    }
+
+    .hapoERP {
+        margin-top: 4.8%;
+
+        img {
+            width: 20%;
+        }
+    }
+
+    .flex-item {
+        i,
+        p {
+            font-size: 24px;
+        }
+    }
+
+    .flex-justify {
+        justify-content: space-around;
+    }
+
+    .italic {
+        font-size: 14px;
+        padding-top: 0;
+        margin-bottom: 4.8%;
+    }
+
+    .btn-start {
+        font-size: 14px;
+        padding: 13px 28px 13px 27px;
+        margin: 0 0 12.3%;
+    }
+
+    .hidden-md-down {
+        display: none;
+    }
+
+    .hidden-lg-up {
+        display: block;
+
+        img {
+            padding-top: 25px;
+        }
+    }
+    
+    .head-title {
+        max-height: 63px;
+        margin: -5px 0 15px;
+
+        i {
+            font-size: 30px;
+            padding: 11px 13px 0 0;
+        }
+
+        p {
+            letter-spacing: -0.07pt;
+            @include font(36px, lighter);
+        }
+    }
+
+    .itali {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.03px;
+    }
+
+    .regular {
+        line-height: 21px;
+    }
+
+    .sub-item {
+        margin-top: 20px;
+
+        p {
+            -webkit-line-clamp: 3;
+            height: 60px;
+            line-height: 21px;
+            @include font(13px, normal);
+        }
+
+        i {
+            margin-right: 12px;
+        }
+    }
+
+    .our-customer {
+        h1 {
+            padding: 5% 0 3.5%;
+            letter-spacing: -0.07px;
+            @include font(36px, lighter);
+        }
+    }
+
+    .quote {
+        width: 100%;
+
+        i {
+            font-size: 64px;
+            opacity: 0.4;
+        }
+
+        p {
+            margin-top: 40px;
+            padding: 15px 0 0;
+            line-height: 30px;
+            @include font(18px, lighter);
+        }
+    }
+        
+    .ti-quote-right {
+        padding-top: 22%;
+    }
+    
+    .col-title {
+        img {
+            padding-top: 0;
+        }
+    }
+
+    .col-footer {
+        ul {
+            padding-inline-start: unset;
+        }
+        padding: 0;
+    }  
+}
+
+@media screen and (max-width: 480px){
+    .hidden-lg-up {
+        display: block;
+    }
+
+    .hidden-md-down {
+        display: none;
+    }
+
+    .header-banner {     
+        background: url('../image/rectangle.png') no-repeat center;
+        background-size: cover;
+    }
+
+    .hapoERP {
+        margin-top: 2%;
+
+        img {
+            width: 20%;
+        }
+    }
+
+    .flex-item {
+        i,
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .flex-justify {
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .offset-1 {
+        margin-left: 10.333333%;
+    }
+
+    .italic {
+        font-size: 9px;
+        padding-top: 0;
+    }
+
+    .btn-start {
+        font-size: 14px;
+        padding: 11px 28px 10px 27px;
+        margin: 0 0 6%;
+    }
+
+    .head-title {
+        max-height: 32px;
+        margin: 0 0 5px;
+
+        i {
+            font-size: 20px;
+            padding: 7px 14px 0 0;
+        }
+
+        p {
+            letter-spacing: -0.05pt;
+            @include font(24px, lighter);
+        }
+    }
+
+    .itali {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.03px;
+    }
+
+    .regular {
+        line-height: 21px;
+    }
+
+    .sub-item {
+        margin-top: 20px;
+
+        p {
+            -webkit-line-clamp: 3;
+            height: 60px;
+            line-height: 21px;
+            @include font(13px, normal);
+        }
+
+        i {
+            margin-right: 12px;
+        }
+    }
+    
+    .our-customer {
+        h1 {
+            padding: 5.6% 0 5%;
+            letter-spacing: -0.05px;
+            @include font(24px, lighter);
+        }
+    }
+
+    .carousel {
+        padding-bottom: 7.2%;
+    }
+
+    .quote {
+        width: 100%;
+        margin-top: 26px;
+        padding-bottom: 5.6%;
+
+        i {
+            font-size: 48px;
+        }
+
+        p {
+            margin-top: 0;
+            padding: 0;
+            margin-block-end: unset;
+            line-height: 25px;
+            @include font(14px, lighter);
+        }
+    }
+     
+    .ti-quote-right {
+        padding-top: 0;
+    }
+    
+    footer {
+        padding: 3.5% 0 4%;
+    }
+    
+    .col-footer {
+        ul {
+            padding-inline-start: unset;
+        }
+
+        img {
+            width: 20%;
+            padding-bottom: 15px;
+        }
+
+        i {
+            padding-top: 10px;
+        }
+
+        p {
+            color: white;
+            font-size: 10px;
+            padding-top: 10px;
+        }
+    }
+
+    .col-how-works {
+        padding: 0;
+    }  
+}
+

@@ -7,7 +7,7 @@ body {
 }
 
 .header-right {
-    margin-top: 20px;
+    margin-top: 3%;
 
     a {
         @include font(12px, normal);
@@ -22,28 +22,30 @@ body {
     color: $btn-header-color;
     border: 2px solid $btn-header-color;
     border-radius: 100px;
+    padding: 10px 15px 10px 17px;
 }
 
 .hapoERP {
-    margin-top: 18%;
+    margin-top: 16%;
 }
 
 .italic {
     font-style: italic;
     letter-spacing: -0.03px;
     color: $header-color;
-    padding-top: 50px;
+    padding-top: 4%;
+    margin-bottom: 2.5%;
     @include font(18px, normal);
 }
 
 .flex-item {
+    color: $header-color;
+
     i {
-        font-size: 48px;
-        color: $header-color;
+        font-size: 48px; 
     }
 
     p {
-        color: $header-color;
         letter-spacing: -0.07px;
         @include font(36px, lighter);
     }
@@ -59,13 +61,13 @@ body {
     border-radius: 100px;
     color: white;
     padding: 14px 47px;
-    margin: 10px 0 18%;
+    margin: 1% 0 20%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     @include font(16px, normal);
 }
 
 .today-learnt {
-    padding: 7% 0;
+    padding: 5.193% 0 0;
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -100,13 +102,13 @@ body {
 }
 
 .daily-report {
-    padding: 7% 0;
+    padding: 5.193% 0 0;
 }
 
 .route {
     background-image: $background-gradient-color;
     color: white;
-    height: 322px;
+    padding: 5.6% 0;
 }
 
 .circle {
@@ -129,6 +131,7 @@ body {
 
 .sub-item {
     margin-top: 18px;
+    
     p {
         -webkit-line-clamp: 2;
         overflow: hidden;
@@ -147,11 +150,10 @@ body {
 
 .our-customer {
     background-image: url('../image/rectangle3.png');
-    height: 544px;
     color: white;
 
     h1 {
-        padding: 50px 0 38px;
+        padding: 5% 0 3.5%;
         letter-spacing: -0.09px;
         @include font(48px, lighter);
     }
@@ -181,6 +183,7 @@ body {
 .quote {
     width: 85%;
     margin: auto;
+    padding-bottom: 5%;
 
     i {
         font-size: 72px;
@@ -201,7 +204,7 @@ body {
 
 footer {
     background-color: rgb(57, 71, 78);
-    height: 179px;
+    padding: 2.2% 0 2%;
 }
 
 .col-footer {
@@ -215,15 +218,15 @@ footer {
         @include font(10px, 400)
     }
 
-    .col-title {
-        color: $btn-header-color;
-        padding-bottom: 14px;
-        @include font(13px, 400)
-    }
-
     i {
         color: $btn-header-color;
         padding-top: 65px;
         font-size: 13px;
+    }
+
+    .col-title {
+        color: $btn-header-color;
+        padding-bottom: 14px;
+        @include font(13px, 400)
     }
 }
