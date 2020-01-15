@@ -35,7 +35,8 @@
 
   .btn-start {
     font-size: 14px;
-    padding: 13px 28px 13px 27px;
+    letter-spacing: 1.17px;
+    padding: 11px 28px 11px 27px;
     margin: 0 0 12.3%; }
 
   .hidden-md-down {
@@ -140,7 +141,8 @@
 
   .btn-start {
     font-size: 14px;
-    padding: 11px 28px 10px 27px;
+    letter-spacing: 1.17px;
+    padding: 9px 28px 9px 27px;
     margin: 0 0 6%; }
 
   .head-title {
@@ -179,8 +181,14 @@
     font-size: 24px;
     font-weight: lighter; }
 
-  .carousel {
+  .carousel-cus {
     padding-bottom: 7.2%; }
+
+  .carousel-manage {
+    padding-bottom: 5%; }
+
+  .carousel-indicators {
+    margin-bottom: 0; }
 
   .quote {
     width: 100%;
@@ -213,8 +221,7 @@
     color: white;
     font-size: 10px;
     padding-top: 10px; }
-
-  .col-how-works {
-    padding: 0; } }
+  .col-footer .col-title {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=responsive.css.map */

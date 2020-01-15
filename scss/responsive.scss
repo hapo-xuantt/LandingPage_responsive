@@ -52,7 +52,8 @@
 
     .btn-start {
         font-size: 14px;
-        padding: 13px 28px 13px 27px;
+        letter-spacing: 1.17px;
+        padding: 11px 28px 11px 27px;
         margin: 0 0 12.3%;
     }
 
@@ -201,7 +202,8 @@
 
     .btn-start {
         font-size: 14px;
-        padding: 11px 28px 10px 27px;
+        letter-spacing: 1.17px;
+        padding: 9px 28px 9px 27px;
         margin: 0 0 6%;
     }
 
@@ -253,8 +255,16 @@
         }
     }
 
-    .carousel {
+    .carousel-cus {
         padding-bottom: 7.2%;
+    }
+    
+    .carousel-manage {
+        padding-bottom: 5%;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0;
     }
 
     .quote {
@@ -302,10 +312,9 @@
             font-size: 10px;
             padding-top: 10px;
         }
+
+        .col-title {
+            font-size: 12px;
+        }
     }
-
-    .col-how-works {
-        padding: 0;
-    }  
 }
-
