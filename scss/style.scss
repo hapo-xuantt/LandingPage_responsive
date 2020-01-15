@@ -23,6 +23,16 @@ body {
     border: 2px solid $btn-header-color;
     border-radius: 100px;
     padding: 10px 15px 10px 17px;
+    &:hover {
+        color: $btn-header-color;
+    }
+}
+
+.btn {
+    &:focus, &:active {
+       outline: 0 !important;
+       box-shadow: none;
+    }
 }
 
 .hapoERP {
@@ -60,10 +70,15 @@ body {
     background-image: $background-gradient-color;
     border-radius: 100px;
     color: white;
-    padding: 14px 47px;
+    padding: 13px 47px 11px;
     margin: 1% 0 20%;
+    letter-spacing: 1.33px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     @include font(16px, normal);
+
+    &:hover {
+        color:white;
+    }
 }
 
 .today-learnt {
@@ -177,6 +192,13 @@ body {
         width: 10px;
         height: 10px;
         border-radius: 100%;
+        background-color: unset;
+        border: 1px solid rgba(255, 255, 255, 1);
+        margin: 0 11px 0;
+    }
+
+    .active {
+        background-color: white;
     }
 }
 

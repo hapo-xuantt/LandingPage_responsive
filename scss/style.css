@@ -17,6 +17,12 @@ body {
   border: 2px solid #8bc34a;
   border-radius: 100px;
   padding: 10px 15px 10px 17px; }
+  .sign-in:hover {
+    color: #8bc34a; }
+
+.btn:focus, .btn:active {
+  outline: 0 !important;
+  box-shadow: none; }
 
 .hapoERP {
   margin-top: 16%; }
@@ -47,11 +53,14 @@ body {
   background-image: linear-gradient(45deg, #429321, #b4ec58);
   border-radius: 100px;
   color: white;
-  padding: 14px 47px;
+  padding: 13px 47px 11px;
   margin: 1% 0 20%;
+  letter-spacing: 1.33px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   font-size: 16px;
   font-weight: normal; }
+  .btn-start:hover {
+    color: white; }
 
 .today-learnt {
   padding: 5.193% 0 0;
@@ -144,7 +153,12 @@ body {
   .carousel-indicators li {
     width: 10px;
     height: 10px;
-    border-radius: 100%; }
+    border-radius: 100%;
+    background-color: unset;
+    border: 1px solid white;
+    margin: 0 11px 0; }
+  .carousel-indicators .active {
+    background-color: white; }
 
 .quote {
   width: 85%;
