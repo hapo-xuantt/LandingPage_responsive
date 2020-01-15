@@ -26,7 +26,11 @@
     font-size: 24px; }
 
   .flex-justify {
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin-top: 5.56%; }
+
+  .offset-md-2 {
+    margin-left: 18.666667%; }
 
   .italic {
     font-size: 14px;
@@ -67,7 +71,7 @@
     line-height: 21px; }
 
   .sub-item {
-    margin-top: 20px; }
+    margin-top: 15px; }
     .sub-item p {
       -webkit-line-clamp: 3;
       height: 60px;
@@ -75,7 +79,8 @@
       font-size: 13px;
       font-weight: normal; }
     .sub-item i {
-      margin-right: 12px; }
+      margin-right: 12px;
+      padding-top: 1.16%; }
 
   .our-customer h1 {
     padding: 5% 0 3.5%;
@@ -111,6 +116,8 @@
 @media screen and (max-width: 767px) {
   .hidden-lg-up {
     display: block; }
+    .hidden-lg-up img {
+      padding-top: 2.225%; }
 
   .hidden-md-down {
     display: none; }
@@ -130,7 +137,7 @@
 
   .flex-justify {
     justify-content: space-around;
-    margin-top: 20px; }
+    margin-top: 4.168%; }
 
   .offset-1 {
     margin-left: 10.333333%; }

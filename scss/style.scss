@@ -23,6 +23,7 @@ body {
     border: 2px solid $btn-header-color;
     border-radius: 100px;
     padding: 10px 15px 10px 17px;
+
     &:hover {
         color: $btn-header-color;
     }
@@ -63,7 +64,7 @@ body {
 
 .flex-justify {
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 4.211%;
 }
 
 .btn-start {
@@ -88,7 +89,7 @@ body {
 
 .head-title {
     max-height: 63px;
-    margin: -5px 0 15px;
+    margin: -20px 0 5px;
 
     i {
         font-size: 36px;
@@ -145,7 +146,7 @@ body {
 }
 
 .sub-item {
-    margin-top: 18px;
+    margin-top: 16px;
     
     p {
         -webkit-line-clamp: 2;
@@ -154,6 +155,7 @@ body {
         color: $header-color;
         text-align: justify;
         line-height: 24px;
+        margin-block-end: unset;
         @include font(13px, normal);
     }
 
@@ -161,6 +163,10 @@ body {
         color: $btn-header-color;
         margin-right: 19px;
     }
+}
+
+.customer-item {
+    margin: 5% 0 4%;
 }
 
 .our-customer {
@@ -180,8 +186,17 @@ body {
     p {
         @include font(10px, normal);
     }
+
     span {
         @include font(13px, normal);
+    }
+    
+    img {
+        padding-top: 10px;
+    }
+
+    img:hover {
+      transform: scale(1.2);
     }
 }
 
