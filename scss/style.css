@@ -153,9 +153,10 @@ body {
     font-weight: normal; }
   .customer img {
     padding-top: 10px; }
-  .customer img:hover {
-    transform: scale(1.2);
-    padding-bottom: 10px; }
+  .customer:hover img {
+    transform: scale(1.2); }
+  .customer:hover .customer-text {
+    transform: translateY(10px); }
 
 .carousel-indicators {
   margin-bottom: -20px; }
@@ -168,6 +169,9 @@ body {
     margin: 0 11px 0; }
   .carousel-indicators .active {
     background-color: white; }
+
+.carousel-inner {
+  padding: 0 2% 0; }
 
 .quote {
   width: 85%;
