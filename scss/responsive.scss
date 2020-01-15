@@ -42,6 +42,11 @@
 
     .flex-justify {
         justify-content: space-around;
+        margin-top: 5.56%;
+    }
+    
+    .offset-md-2 {
+        margin-left: 18.666667%;
     }
 
     .italic {
@@ -95,7 +100,7 @@
     }
 
     .sub-item {
-        margin-top: 20px;
+        margin-top: 15px;
 
         p {
             -webkit-line-clamp: 3;
@@ -106,6 +111,7 @@
 
         i {
             margin-right: 12px;
+            padding-top: 1.16%;
         }
     }
 
@@ -160,6 +166,10 @@
 @media screen and (max-width: 767px){
     .hidden-lg-up {
         display: block;
+
+        img {
+            padding-top: 2.225%;
+        }
     }
 
     .hidden-md-down {
@@ -188,7 +198,7 @@
 
     .flex-justify {
         justify-content: space-around;
-        margin-top: 20px;
+        margin-top: 4.168%;
     }
     
     .offset-1 {

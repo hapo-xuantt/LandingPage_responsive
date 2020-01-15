@@ -47,7 +47,7 @@ body {
 
 .flex-justify {
   justify-content: space-evenly;
-  margin-top: 40px; }
+  margin-top: 4.211%; }
 
 .btn-start {
   background-image: linear-gradient(45deg, #429321, #b4ec58);
@@ -68,7 +68,7 @@ body {
 
 .head-title {
   max-height: 63px;
-  margin: -5px 0 15px; }
+  margin: -20px 0 5px; }
   .head-title i {
     font-size: 36px;
     color: #444444;
@@ -116,7 +116,7 @@ body {
   margin-top: -15px; }
 
 .sub-item {
-  margin-top: 18px; }
+  margin-top: 16px; }
   .sub-item p {
     -webkit-line-clamp: 2;
     overflow: hidden;
@@ -124,11 +124,15 @@ body {
     color: #283238;
     text-align: justify;
     line-height: 24px;
+    margin-block-end: unset;
     font-size: 13px;
     font-weight: normal; }
   .sub-item i {
     color: #8bc34a;
     margin-right: 19px; }
+
+.customer-item {
+  margin: 5% 0 4%; }
 
 .our-customer {
   background-image: url("../image/rectangle3.png");
@@ -147,6 +151,10 @@ body {
   .customer span {
     font-size: 13px;
     font-weight: normal; }
+  .customer img {
+    padding-top: 10px; }
+  .customer img:hover {
+    transform: scale(1.2); }
 
 .carousel-indicators {
   margin-bottom: -20px; }
