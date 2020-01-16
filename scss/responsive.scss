@@ -192,6 +192,12 @@
             width: 20%;
         }
     }
+    
+    .header-right {
+        a {
+            @include font(12px, 500);
+        }
+    }
 
     .flex-item {
         i,
@@ -298,11 +304,7 @@
             @include font(14px, lighter);
         }
     }
-     /*
-    .ti-quote-right {
-        padding-top: 0;
-    }
-    */
+
     footer {
         padding: 3.5% 0 4%;
     }

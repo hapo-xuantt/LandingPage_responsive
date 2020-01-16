@@ -134,6 +134,10 @@
     .hapoERP img {
       width: 20%; }
 
+  .header-right a {
+    font-size: 12px;
+    font-weight: 500; }
+
   .flex-item i,
   .flex-item p {
     font-size: 18px; }
@@ -214,11 +218,6 @@
       font-size: 14px;
       font-weight: lighter; }
 
- /*
-.ti-quote-right {
-    padding-top: 0;
-}
-*/
   footer {
     padding: 3.5% 0 4%; }
 
