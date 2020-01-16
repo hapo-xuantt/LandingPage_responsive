@@ -16,7 +16,7 @@ body {
   color: #8bc34a;
   border: 2px solid #8bc34a;
   border-radius: 100px;
-  padding: 10px 15px 10px 17px; }
+  padding: 7px 15px 7px 17px; }
   .sign-in:hover {
     color: #8bc34a; }
 
@@ -198,7 +198,7 @@ footer {
   text-decoration: none;
   color: white;
   font-size: 10px;
-  font-weight: 400; }
+  font-weight: 500; }
 .col-footer i {
   color: #8bc34a;
   padding-top: 65px;
@@ -207,6 +207,6 @@ footer {
   color: #8bc34a;
   padding-bottom: 14px;
   font-size: 13px;
-  font-weight: 400; }
+  font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */
