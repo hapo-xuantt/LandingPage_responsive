@@ -278,6 +278,14 @@
     .carousel-indicators {
         margin-bottom: 0;
     }
+    
+    .our-customer {
+        h1 {
+            padding: 5.56% 0 5.34%;
+            letter-spacing: -0.05px;
+            @include font(24px, lighter);
+        }
+    }
 
     .quote {
         width: 100%;
