@@ -189,12 +189,6 @@
     .sub-item i {
       margin-right: 12px; }
 
-  .our-customer h1 {
-    padding: 5.6% 0 5%;
-    letter-spacing: -0.05px;
-    font-size: 24px;
-    font-weight: lighter; }
-
   .carousel-cus {
     padding-bottom: 7.2%; }
 
@@ -213,6 +207,7 @@
     .quote p {
       margin-top: 0;
       padding: 0;
+      text-align: justify;
       margin-block-end: unset;
       line-height: 25px;
       font-size: 14px;
