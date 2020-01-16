@@ -52,6 +52,7 @@ body {
 .btn-start {
   background-image: linear-gradient(45deg, #429321, #b4ec58);
   border-radius: 100px;
+  border: none;
   color: white;
   padding: 13px 47px 11px;
   margin: 1% 0 20%;
